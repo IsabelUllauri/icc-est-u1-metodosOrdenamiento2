@@ -18,19 +18,8 @@ public class App {
         while (continuar){
             
             int[] arreglo = {12, -7, 25, 0, -15, 33, 19, -22, 5, 48, -3, 27, -30, 14, 7, -1, 41, 20, -11, 8 };//array con valores definidos
-            //int[] arreglo = new int [10000]; //array sin valores (posiciones vacias)
-            //for (int i=0;i< arreglo.length;i++ ){
-            //    arreglo[i]=(int)(Math.random()*10000)+1;//+1 para que no comience desde 0 (int) pq devuelve double
-            //}
+            
 
-            //System.out.println("selecciona el metedo de ordenamiento: ");
-            //System.out.println("1. burbuja");
-            //System.out.println("2. seleccion");
-            //System.out.println("3. insercion");
-            //System.out.println("4. burbuja avanzado");
-            //System.out.println("5. salir");
-            //int metodo = scanner.nextInt();
-            //int metodo= getPositive(scanner, "\tIngrese la opcion:  ");
             int metodo = -1;
 
             while (metodo < 1 || metodo > 5) {
@@ -79,22 +68,6 @@ public class App {
                 }                
             }
             boolean ascendente1 = orden.equalsIgnoreCase("A");
-
-            /* 
-            System.out.println("desea ver los pasos? (true/false): ");
-            boolean conPasos = scanner.nextBoolean();
-
-            System.out.println("desea ordenar ascendentemente (A) o descendentemenete (D)?: ");
-            String orden = scanner.next();
-            boolean ascendente1 = orden.equalsIgnoreCase("A");
-            String[] posibles= {"A", "D"};
-            */
-
-            /*String orden = getValidString(scanner, new String[]{"A", "D"}, "desea ordenar ascendentemente (A) o descendentemenete (D)?: ");
-            boolean ascendente= orden.equalsIgnoreCase("A");
-            int contComparaciones;
-            int[] respuesta;*/
-
 
             switch(metodo){
                 case 1:
