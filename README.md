@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Práctica de Algoritmos de Ordenamiento
 
 ## 📌 Información General
@@ -66,3 +67,6 @@ arreglo original:
 Comparaciones totales -> 184
 Cambios totales -> 93
 
+=======
+# icc-est-u1-metodosOrdenamiento2
+>>>>>>> 450b01ca888eb0feaa77a2411fd6ac9fd21f4a98
